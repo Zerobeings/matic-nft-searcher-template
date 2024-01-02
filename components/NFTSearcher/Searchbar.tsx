@@ -13,7 +13,7 @@ export default function NFTSearcherPackNOSSR(){
   const [fetchedNFTs, setFetchedNFTs] = useState<any[]>([]);
   const [loading, setLoading] = useState<boolean>(false);
   const [darkMode, setDarkMode] = useState<boolean>(false);
-  const network = "ethereum"; // "ethereum" or "polygon" match the network set up in the thirdweb-react provider
+  const network = "polygon"; // "ethereum" or "polygon" match the network set up in the thirdweb-react provider
   const [attributes, setAttributes] = useState<Attributes>({});
   const [allNFTs, setAllNFTs] = useState<any[]>([]);
 
